@@ -1,6 +1,6 @@
-# Project Name
-![Blockdiagram](doc/pic1.png)
-This project helps with fermenting beer, monitoring several environment variables displaying on 2 local displays and sending the information for remote visualisation to the ThingSpeak cloud.
+# ESP32Base
+![Blockdiagram](doc/pcb3D.png)
+This is a framework project for the NodeMCU32 PCB with a harware extension a firmware library to support the available modules on the hardware and a 3D printable housing
 
 * point 1
 * point 2
