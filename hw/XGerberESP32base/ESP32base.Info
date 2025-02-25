@@ -1,0 +1,34 @@
+CAM-Ausgabe für Projekt / CAM Output for Project ESP32base.T3001
+Ausgabe am / Output Date 30. Nov 2024, 19:14h
+Projekt erzeugt mit / Project created with TARGET 33.2.0.9 smart
+Ausgabe erzeugt mit / Output created with TARGET 3001! V33.2.0.9
+Lieferanschrift / Delivery address:
+  
+  
+  
+  D- 
+  Tel: 
+  FAX: 
+  eMail: 
+Größe der Platine / Size of PCB: 70 mm x 50 mm
+Dicke der Platine / Thickness of PCB: 1,6 mm
+KupferDicke / Copper thickness: 35 µm
+
+Beschreibung der erzeugten Dateien / Description of generated files:
+
+ESP32base.Top = 16 = Kupfer oben / Copper top L1   ( *.Top )
+ESP32base.Bot = 2 = Kupfer unten / Copper bottom L2   ( *.Bot )
+ESP32base.Tool = Bohrerliste / Drill tool list
+ESP32base.Drill = Durchkontaktierte Bohrungen / Plated through drills
+ESP32base.Hole = Nicht-durchkontaktierte Bohrloecher / Non plated through drills
+ESP32base.Outline = 23 = Platinen-Umriss / PCB outline   ( *.Outline )
+ESP32base.StopTop = 18 = Lötstoppmaske oben / Solder stop top   ( *.StopTop )
+ESP32base.StopBot = 4 = Lötstoppmaske unten / Solder stop bottom   ( *.StopBot )
+ESP32base.PosiTop = 21 = Bestückungsdruck oben / Silk screen top   ( *.PosiTop )
+ESP32base.PasteTop = 19 = Lötpaste oben / Paste top   ( *.PasteTop )
+ESP32base.Mill = 25 = Fräsen/ Milling   ( *.Mill )
+ESP32base_BOM.xlsx = BOM / Bill Of Material (JLCPCB)
+ESP32base_CPL.xlsx = CPL / Component Placement List (JLCPCB)
+
+
+Achtung: Dünnste Schrift (Font too thin) ist kleiner 0,150mm: (0,100 bei 13,164806 | 3,824043) auf Ebene 28
