@@ -38,19 +38,21 @@ module main()
         minus();
 
     }
-    translate([64.45/2,44.45/2,-height/2])rotate([0,0,0])cylinder(wall+3,8/2,8/2);
-    translate([64.45/2,44.45/2,-height/2])rotate([0,0,0])cylinder(wall+6,2.9/2,2.9/2);
-
-    translate([64.45/2,-44.45/2,-height/2])rotate([0,0,0])cylinder(wall+3,8/2,8/2);
- //   translate([64.45/2,-44.45/2,-height/2])rotate([0,0,0])cylinder(wall+6,2.9/2,2.9/2);
-    
-    translate([-64.45/2,44.45/2,-height/2])rotate([0,0,0])cylinder(wall+3,8/2,8/2);
-    translate([-64.45/2,44.45/2,-height/2])rotate([0,0,0])cylinder(wall+6,2.9/2,2.9/2);
-    
-    translate([-64.45/2,-44.45/2,-height/2])rotate([0,0,0])cylinder(wall+3,8/2,8/2);
-    translate([-64.45/2,-44.45/2,-height/2])rotate([0,0,0])cylinder(wall+6,2.9/2,2.9/2);
-
-
+    difference()
+    {
+        union()
+        {
+            translate([64.45/2,44.45/2,-height/2])rotate([0,0,0])cylinder(wall+3,8/2,8/2);
+            translate([64.45/2,-44.45/2,-height/2])rotate([0,0,0])cylinder(wall+3,8/2,8/2);    
+            translate([-64.45/2,44.45/2,-height/2])rotate([0,0,0])cylinder(wall+3,8/2,8/2);       
+            translate([-64.45/2,-44.45/2,-height/2])rotate([0,0,0])cylinder(wall+3,8/2,8/2);
+        }
+        translate([64.45/2,44.45/2,-height/2])rotate([0,0,0])cylinder(wall+3,2.3/2,2.3/2);
+        translate([-64.45/2,44.45/2,-height/2])rotate([0,0,0])cylinder(wall+3,2.3/2,2.3/2);
+        translate([64.45/2,-44.45/2,-height/2])rotate([0,0,0])cylinder(wall+3,2.3/2,2.3/2);
+        translate([-64.45/2,-44.45/2,-height/2])rotate([0,0,0])cylinder(wall+3,2.3/2,2.3/2);
+        
+    }
       
 
 }
